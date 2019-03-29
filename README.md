@@ -50,6 +50,8 @@ Edit this document to include your answers after each question. Make sure to lea
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
 
+    My favorite concept in preprocessing by far is the idea of nesting. I've heard it said around the internets that Less/Sass fits BEM like a glove, and boy were they not kidding! My code has become sooo much more organized and readable by mixing these two entities. The `&` symbol is so helpful; I'm absolutely blown away by the amount of utility it provides. A close second favorite is the idea of mixins. I love that --if used correctly -- you can abstract away common boilerplate and make your styles more declarative.
+
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
 ## Project Set Up
