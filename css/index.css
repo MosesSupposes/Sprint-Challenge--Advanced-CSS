@@ -256,3 +256,7 @@ footer {
   height: auto;
   border-radius: 10px;
 }
+.home footer {
+  border: 1px solid #F1F1F1;
+  margin-bottom: 0.75rem;
+}
