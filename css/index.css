@@ -194,6 +194,12 @@ a {
   color: #454A59;
   text-decoration: none;
   padding: 0 1rem;
+  transition: all 0.55s ease-in-out;
+}
+.navigation nav a:hover {
+  background: #003366;
+  color: #F1F1F1;
+  transform: scale(1.1);
 }
 footer {
   color: #22283B;
