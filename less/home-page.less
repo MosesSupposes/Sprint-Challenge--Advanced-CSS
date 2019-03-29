@@ -28,6 +28,17 @@
       margin: 20px 2.5%;
       border-radius: 20px;
       height: 100%;
+
+        @media @mobile {
+          &:first-child {
+            width: 100%;
+          }
+
+          &:not(:first-child) {
+            display: none;
+          }
+
+        }
     }
   }
 
