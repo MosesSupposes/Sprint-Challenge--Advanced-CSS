@@ -190,6 +190,12 @@ a {
 .navigation nav {
   margin-top: 1rem;
 }
+@media (max-width: 500px) {
+  .navigation nav {
+    display: flex;
+    justify-content: center;
+  }
+}
 .navigation nav a {
   color: #454A59;
   text-decoration: none;
