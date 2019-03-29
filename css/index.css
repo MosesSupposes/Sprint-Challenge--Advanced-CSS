@@ -289,10 +289,12 @@ footer {
     margin-top: 13px;
   }
 }
-.home .walk .walk-text .btn {
-  display: block;
-  text-align: center;
-  padding: 1.25em 0;
+@media (max-width: 500px) {
+  .home .walk .walk-text .btn {
+    display: block;
+    text-align: center;
+    padding: 1.25em 0;
+  }
 }
 .home .walk .walk-img {
   width: 46%;
