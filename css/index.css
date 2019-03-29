@@ -164,6 +164,20 @@ a {
   width: 100%;
   margin: 0 auto;
 }
+.btn {
+  background: #003366;
+  color: #F1F1F1;
+  transition: all 0.2s ease-out;
+  display: inline-block;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  font-size: 2em;
+}
+.btn:hover {
+  background: #310047;
+  color: #F1F1F1;
+  transform: scale(1.1);
+}
 .navigation {
   background: #F6F6F6;
   padding: 2rem 0 1rem;
