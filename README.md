@@ -42,6 +42,8 @@ Edit this document to include your answers after each question. Make sure to lea
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+    Intentionally setting the `font-size` to `62.5%` in the highest level `html` tag allows for us developers/ designers to think of our `rem` units in terms of base-10, as opposed to base-16, which is the default.
+
 4. How would you describe preprocessing to someone new to CSS?
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
