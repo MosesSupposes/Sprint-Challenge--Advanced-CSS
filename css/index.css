@@ -219,6 +219,7 @@ footer {
 }
 .home .intro img {
   border-radius: 7px;
+  margin-top: 12rem;
 }
 .home .space-images {
   display: flex;
