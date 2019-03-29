@@ -46,6 +46,8 @@ Edit this document to include your answers after each question. Make sure to lea
 
 4. How would you describe preprocessing to someone new to CSS?
 
+    Preprocessing allows you to apply more powerful programming techniques to your CSS. The main benfefit to incorporating a preprocessor into your stylesheets is that it allows you to orgainze your styles in a manner that is more modular, concise, readable, and reusable. Features such as paramaterized mixins/ functions, variables (which doesn't count anymore since CSS now has this feature), nesting, and escaping allow for powerful patterns/techniques that you wouldn't have access to if you were using just plain, vanilla CSS.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
