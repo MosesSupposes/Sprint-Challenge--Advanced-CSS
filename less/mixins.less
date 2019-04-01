@@ -1,1 +1,11 @@
-// Mixins Here
+.custom-btn--colors(@bg-color: @space-blue, @font-color: @sea-shell) {
+    background: @bg-color;
+    color: @font-color;
+    transition: all .2s ease-out;
+}
+
+.custom-btn--hover(@bg-color: @space-purple-dark, @font-color: @sea-shell) {
+    background: @bg-color;
+    color: @font-color;
+    transform: scale(1.1);
+}

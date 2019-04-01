@@ -34,13 +34,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+    A responsive website shows content based on the available browser space. The content dynamically adjusts itself as the screen size changes (on mobile this is done automatically). This differs from an adaptive site, which has multiple _fixed_ layout sizes. So in essence, websites with responsive designs have _one_ dynamic size, while websites with adaptive designs have _multiple_ predetermined sizes.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+    Mobile-first design has an emphasis on designing for smaller screen sizes initially, and then adding media queries to account for desktop sizes as needed. Desktop-first design flips this paradigm around.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+    Intentionally setting the `font-size` to `62.5%` in the highest level `html` tag allows for us developers/ designers to think of our `rem` units in terms of base-10, as opposed to base-16, which is the default.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+    Preprocessing allows you to apply more powerful programming techniques to your CSS. The main benfefit to incorporating a preprocessor into your stylesheets is that it allows you to orgainze your styles in a manner that is more modular, concise, readable, and reusable. Features such as paramaterized mixins/ functions, variables (which doesn't count anymore since CSS now has this feature), nesting, and escaping allow for powerful patterns/techniques that you wouldn't have access to if you were using just plain, vanilla CSS.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+    My favorite concept in preprocessing by far is the idea of nesting. I've heard it said around the internets that Less/Sass fits BEM like a glove, and boy were they not kidding! My code has become sooo much more organized and readable by mixing these two entities. The `&` symbol is so helpful; I'm absolutely blown away by the amount of utility it provides. A close second favorite is the idea of mixins. I love that --if used correctly -- you can abstract away common boilerplate and make your styles more declarative.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
